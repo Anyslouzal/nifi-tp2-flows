@@ -1701,7 +1701,7 @@
       },
       "properties" : {
         "Routing Strategy" : "Route to Property name",
-        "retry" : "${tentatives:lt(3)}"
+        "retry" : "${tentatives:lt(5)}"
       },
       "propertyDescriptors" : {
         "Routing Strategy" : {
@@ -3225,6 +3225,6 @@
   "snapshotMetadata" : {
     "author" : "114243f7-2425-41c7-8779-188d788ddf96",
     "flowIdentifier" : "ingestion-cars",
-    "timestamp" : 1793621518731
+    "timestamp" : 1793621596191
   }
 }
